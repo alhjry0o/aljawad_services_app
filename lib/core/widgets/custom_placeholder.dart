@@ -1,4 +1,4 @@
-import 'package:flutter/material';
+import 'package:flutter/material.dart';
 
 class CustomLogoPlaceholder extends StatelessWidget {
   const CustomLogoPlaceholder({super.key});
