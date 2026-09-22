@@ -14,7 +14,7 @@ class PortfolioScreen extends StatelessWidget {
         itemBuilder: (context, index) {
           final project = AppData.projects[index];
           return Card(
-            margin: const EdgeInsets.bottom(16),
+            margin: const EdgeInsets.only(bottom: 16),
             clipBehavior: Clip.antiAlias,
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
