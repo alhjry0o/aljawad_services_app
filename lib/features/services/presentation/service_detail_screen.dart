@@ -1,4 +1,4 @@
-import 'package:flutter/material';
+import 'package:flutter/material.dart';
 import '../../../core/constants/app_data.dart';
 import 'package:go_router/go_router.dart';
 
