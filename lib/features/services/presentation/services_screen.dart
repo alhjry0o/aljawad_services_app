@@ -15,7 +15,7 @@ class ServicesScreen extends StatelessWidget {
         itemBuilder: (context, index) {
           final service = AppData.services[index];
           return Card(
-            margin: const EdgeInsets.bottom(12),
+            margin: const EdgeInsets.only(bottom: 12),
             child: ListTile(
               title: Text(service.title, style: const TextStyle(fontWeight: FontWeight.bold)),
               subtitle: Text(service.description),
