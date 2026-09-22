@@ -1,4 +1,4 @@
-import 'package:flutter/material';
+import 'package:flutter/material.dart';
 import '../../../core/constants/app_data.dart';
 
 class PortfolioScreen extends StatelessWidget {
